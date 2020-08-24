@@ -1,0 +1,96 @@
+
+ul{
+    list-style-type: none;
+    margin:0px;
+    /*padding:auto;*/
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.5);
+}
+li{
+    height: 45px;
+    text-align: center;
+    font-size: 138%;
+    float: left;
+}
+a:link,a:visited{
+    display: block;
+    height: 50px;
+    width: 260px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a:hover,a:active{
+    text-align: center;
+    background-color: #005500;
+}
+container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.search{
+    background-color: aliceblue;
+}
+.div1{
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+.div2{
+    height: 500px;
+    width: 300px;
+    display: flex;
+    direction: initial;
+    background-color: whitesmoke;
+}
+.text_big{
+    text-align: center;
+    color: black;
+    font-family: "Adobe 楷体 Std R";
+    font-size: 300%;
+}
+.text_middle{
+    color:black;
+    font-size:150%;
+}
+.text_info{
+    color:black;
+    font-size:120%;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    color:  #666;
+    width: 1050px;
+    height: 180px;
+    margin:20px auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px 20px 20px 35px;
+}
+.infoBox{
+    width: 545px;
+    height: 145px;
+    margin: 8px;
+}
+.buttomBox{
+    width:245px;
+    height:145px;
+    margin: 8px;
+}
+.imgBox{
+    width: 145px;
+    height: 145px;
+    margin: 8px;
+}
+.imgBox img{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}

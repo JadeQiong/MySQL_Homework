@@ -1,0 +1,126 @@
+ul{
+    list-style-type: none;
+    margin:0px;
+    /*padding:auto;*/
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.5);
+}
+li{
+    height: 45px;
+    text-align: center;
+    font-size: 138%;
+    float: left;
+}
+a.fi:link,a.fi:visited{
+    display: block;
+    height: 50px;
+    width: 260px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a.fi:hover,a.fi:active{
+    text-align: center;
+    background-color: #005500;
+}
+a.se:link,a.se:visited{
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 4px;
+
+}
+a.se:hover,a.se:active{
+    text-align: center;
+    font-size: 101%;
+
+}
+.login{
+    list-style-type: none;
+    margin:0px;
+    color: white;
+    text-align: center;
+    /*padding:auto;*/
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.3);
+}
+container{
+    /*list-style-type: none;*/
+    /*color: white;*/
+    /*text-align: center;*/
+    /*!*padding:auto;*!*/
+    /*overflow: hidden;*/
+    /*background-color: rgba(0,0,0,0.3);*/
+
+
+
+    width: auto;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    /* 	text-align: center; */
+    justify-content: center;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*!* 	text-align: center; *!*/
+    /*justify-content: center;*/
+}
+.search{
+    background-color: aliceblue;
+}
+.div1{
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+.text_big{
+    text-align: center;
+    color: white;
+    font-family: "Adobe 楷体 Std R";
+    font-size: 300%;
+}
+.text_middle{
+    color:white;
+    font-size:150%;
+}
+
+.box1{
+
+    align-self: center;
+    background-color: whitesmoke;
+    color:  #666;
+    width: 1630px;
+    text-align: left;
+    height: auto;
+    margin:5px;
+    /* 		margin-top: 30px;
+            margin-bottom: 30px; */
+    padding: 40px 40px 40px 45px;
+}
+.box2{
+    align-self: center;
+    background-color: white;
+    color:  #666;
+    width: 1630px;
+    text-align: left;
+    height: auto;
+    margin:5px;
+    /* 		margin-top: 30px;
+            margin-bottom: 30px; */
+    padding: 40px 40px 40px 45px;
+}
+table
+{
+    border-spacing: 5px 10px;
+    align-content: center;
+    border-collapse:separate;
+}
+
+.table, td, th
+{
+    align-items: center;
+    /* border:1px solid black; */
+}

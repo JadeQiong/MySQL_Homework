@@ -1,0 +1,41 @@
+Manifest-Version: 1.0
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-SymbolicName: org.apache.commons.dbutils
+Archiver-Version: Plexus Archiver
+Built-By: thecarlhall
+Bnd-LastModified: 1500241640862
+Implementation-Vendor-Id: org.apache
+Specification-Title: Apache Commons DbUtils
+Bundle-DocURL: https://commons.apache.org/proper/commons-dbutils/
+Include-Resource: META-INF/services/org.apache.commons.dbutils.ColumnH
+ andler=src/main/resources/META-INF/services/org.apache.commons.dbutil
+ s.ColumnHandler,META-INF/services/org.apache.commons.dbutils.Property
+ Handler=src/main/resources/META-INF/services/org.apache.commons.dbuti
+ ls.PropertyHandler,META-INF/LICENSE.txt=LICENSE.txt,META-INF/NOTICE.t
+ xt=NOTICE.txt
+Import-Package: javax.sql
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
+Export-Package: org.apache.commons.dbutils;version="1.7",org.apache.co
+ mmons.dbutils.handlers;version="1.7",org.apache.commons.dbutils.handl
+ ers.columns;version="1.7",org.apache.commons.dbutils.handlers.propert
+ ies;version="1.7",org.apache.commons.dbutils.wrappers;version="1.7"
+Bundle-Name: Apache Commons DbUtils
+Implementation-Title: Apache Commons DbUtils
+Bundle-Description: The Apache Commons DbUtils package is a set of Jav
+ a utility classes for easing JDBC development.
+Implementation-Version: 1.7
+Specification-Vendor: The Apache Software Foundation
+Bundle-ManifestVersion: 2
+Bundle-Vendor: The Apache Software Foundation
+Tool: Bnd-3.0.0.201509101326
+Implementation-Vendor: The Apache Software Foundation
+Bundle-Version: 1.7.0
+X-Compile-Target-JDK: 1.6
+Implementation-Build: release@r77faa3caefc24697b00bf370111f7307dae339b
+ 0; 2017-07-16 21:47:18+0000
+X-Compile-Source-JDK: 1.6
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_102
+Implementation-URL: https://commons.apache.org/proper/commons-dbutils/
+Specification-Version: 1.7
+
